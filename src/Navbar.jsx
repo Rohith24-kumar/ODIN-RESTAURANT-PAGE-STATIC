@@ -33,6 +33,49 @@ export default function Navbar() {
                 onClick={()=>setActiveTab('FAQ')}>FAQ</button>
             </div>
         </nav>
+       <section className="hero-section">
+
+    <div className="hero-left">
+        <h1>Good food choices are<br/>good investments.</h1>
+
+        <p>
+        Enjoy delicious meals made with fresh ingredients, rich flavors,
+        and a touch of love. Discover food that makes every bite worth it.
+        </p>
+
+        <div className="hero-buttons">
+            <button className="order-btn">Order Now</button>
+            <button className="order-outline-btn"> Explore Food →</button>
+        </div>
+    </div>
+
+    <div className="hero-right">
+        <img
+            src={homeimg}
+            alt="Healthy food"
+            className="hIMG"
+        />
+    </div>
+</section>
+
+<div className="footer-stats">
+
+    <div className="stat">
+        <h3>30+</h3>
+        <p>AUTHENTIC DISHES</p>
+    </div>
+
+    <div className="stat">
+        <h3>15+</h3>
+        <p>REGIONAL FLAVOURS</p>
+    </div>
+
+    <div className="stat">
+        <h3>10+</h3>
+        <p>CHEF SPECIALS</p>
+    </div>
+
+</div>
         </>
     );
 
