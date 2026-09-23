@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caacupe+One&family=Idiqlat:wght@200;300;400&family=Lilita+One&display=swap');
+.hero-section-explorePgae {
+    display: flex;
+    align-items: center;
+    min-height: 550px;
+    padding: 20px;
+    overflow: hidden;
+    margin-top:-190px;
+    
+}
+.hero-left-explorePage {
+    width: 65%;
+    padding-left: 0px;
+    position: relative;
+    z-index: 2;
+    text-align: justify;
+}
+
+.hero-left-explorePage h1 {
+    font-family: 'Lilita One', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.15;
+    color: #52182a;
+    margin:  10px;
+    margin-left: 70px;
+
+}
+
+.hero-left-explorePage p {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4;
+    color: #666;
+    max-width: 600px;
+    margin-left: 70px;
+}
+.hero-right-explorePage {
+    width: 55%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: visible;
+}
+.hIMG-explorePage {
+    width: 500%;
+    object-fit: cover;
+    height: auto;
+}
