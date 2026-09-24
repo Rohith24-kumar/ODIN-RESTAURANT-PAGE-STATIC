@@ -1,48 +1,72 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caacupe+One&family=Idiqlat:wght@200;300;400&family=Lilita+One&display=swap');
-.hero-section-explorePgae {
+.hero-section {
     display: flex;
     align-items: center;
     min-height: 550px;
-    padding: 20px;
+    padding: 0 0 50px 6%;
     overflow: hidden;
-    margin-top:-190px;
-    
 }
-.hero-left-explorePage {
-    width: 65%;
-    padding-left: 0px;
+
+.hero-left1 {
+    width: 45%;
+    padding-left: 30px;
     position: relative;
     z-index: 2;
+    margin-top: -100px;
+    margin-left: -80px;
     text-align: justify;
 }
 
-.hero-left-explorePage h1 {
-    font-family: 'Lilita One', sans-serif;
+.hero-left1 h1 {
+    font-family: "Okra", "Recoleta", "Cooper Black", Georgia, serif;
     font-size: 3.5rem;
-    line-height: 1.15;
-    color: #52182a;
-    margin:  10px;
-    margin-left: 70px;
-
+    line-height: 1.1;
+    color:   #A62B45;
+    margin: 0 0 10px;
+    margin-top: -50px;
+    
 }
 
-.hero-left-explorePage p {
+.hero-left1 p {
     font-family: Arial, sans-serif;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     line-height: 1.4;
     color: #666;
     max-width: 600px;
-    margin-left: 70px;
+    margin: 0 0 30px;
 }
-.hero-right-explorePage {
+.hero-right {
     width: 55%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     overflow: visible;
 }
-.hIMG-explorePage {
-    width: 500%;
-    object-fit: cover;
+.hIMG {
+    width: 75%;
+    max-width: none;
     height: auto;
+    margin-top: -30px;
+    display: block;
+}
+.hero-right{
+    margin-top: 10px;
+}
+
+
+.foodbtn{
+    display: flex;
+    gap: 30px;
+    margin-top: -190px;
+    margin-left: 50px;
+}
+
+.foodbtn button{
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    color: #A62B45;
+    border: 1px solid  #A62B45;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
