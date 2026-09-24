@@ -54,14 +54,14 @@
 }
 
 
-.foodbtn{
+.category-buttons{
     display: flex;
     gap: 30px;
     margin-top: -190px;
     margin-left: 50px;
 }
 
-.foodbtn button{
+.category-buttons button{
     border-radius: 20px;
     width: 150px;
     height: 40px;
@@ -69,4 +69,71 @@
     color: #A62B45;
     border: 1px solid  #A62B45;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.category-buttons button.active,
+.category-buttons button:hover{
+    background-color: #A62B45;
+    color: white;
+}
+
+
+.food-container{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    gap: 6px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+
+
+}
+.food-card{
+    border: 1px solid black;
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
+    display: grid;
+    margin-bottom: 30px;
+    transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), 
+              box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+.food-card img{
+    width:400px;
+    height: auto;
+    border-radius: 20px;
+}
+.food-info p,h3,h4 {
+    margin-left: 20px;
+    line-height: 1.3;
+}
+.food-info p,h4{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+.food-info p{
+    text-align: left;
+    white-space: normal;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+}
+
+.food-info h3{
+    color: #A62B45;
+}
+.food-info button{
+   margin-bottom: 30px;
+   width: 360px;
+   height: 40px;
+   background-color: #A62B45;
+   color: white;
+   border: none;
+   border-radius: 20px;
+   cursor: pointer;
+}
+
+.food-card:hover{
+transform: translateY(-6px);
+cursor: pointer;
 }

@@ -10,7 +10,7 @@ import noodels from '../assets/noodels.jpeg';
 import samosa from '../assets/samosa.jpeg';
 import idli from '../assets/idli.png';
 import chole from '../assets/chole.png';
-import chinees from '../assets/chinees.png';
+import chinees from '../assets/manchurian.png';
 import { useNavigate } from "react-router-dom";
 export default function Navbar() {
     const navigate = useNavigate();
