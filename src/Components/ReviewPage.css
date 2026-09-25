@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caacupe+One&family=Idiqlat:wght@200;300;400&family=Lilita+One&display=swap');
+.hIMG2 {
+    width: 75%;
+    max-width: none;
+    height: auto;
+    margin-top: -100px;
+    display: block;
+}
+
+.ratings{
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: -220px;
+
+}
+.rate-badge{
+    display: inline-flex;
+    align-items: center;
+    gap: 2px;
+    background-color: #A62B45;
+    border-radius: 20px;
+    width: 200px;
+    height: 80px;
+    padding-left: 15px;
+}
+.star{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.rateGot{
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: #fefdfd;
+}
+
+.outOf {
+    font-size: 1.8rem; 
+    color: #fefdfd; 
+    align-self: flex-end; 
+    margin-bottom: 22px; 
+}
+
+.review-count{
+    color: #666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1rem;
+    
+}
+
+.breakdown-container{
+    max-width: 450px;
+    
+}
+
+.breakdown-title{
+    color: #A62B45;
+    font-weight: bold;
+    font-family: "Okra", "Recoleta", "Cooper Black", Georgia, serif;
+    margin-left: -1250px;
+    margin-top: 20px;
+    font-size: 2.3rem;
+}
+
+.breakdown-row{
+        display: flex;
+        flex-direction: row;
+        gap: 12px;
+        margin-left: 60px;
+        font-size: 1.2rem;
+        color: #666;
+        line-height: 2.3;
+}
+.start-icon{
+   margin-left: 8px;
+}
+
+.bar-track{
+    flex-grow: 1;
+    height: 12px;
+    background-color: #ededed;  
+    border-radius: 12px;
+    margin-top: 20px;
+    max-width: 450px;
+    overflow: hidden;
+}
+.bar-fill{
+    background-color: #A62B45;
+    border-radius: 12px;
+    height: 100%;
+    transition: width 0.4s ease-out;
+}

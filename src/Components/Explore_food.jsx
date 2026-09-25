@@ -18,6 +18,8 @@ import chickenPakora from "../assets/chickenPakora.png";
 import lassi from "../assets/lassi.jpeg";
 import coldCoffee from "../assets/coldCoffee.jpeg";
 import limeSoda from "../assets/limeSoda.jpeg";
+import { Link } from 'react-router-dom';
+
 export default function Explore_food() {
     const[foodCategory,setfoodCategory]=useState('All');
     const [foodItems, setFoodItems] = useState([
@@ -192,6 +194,7 @@ const categories = [
                     onClick={()=>setfoodCategory(category)}>{category}</button>
                 ))}
             </div>
+
             <div className='food-container'>
                 {filteredFoods.map((food,index)=>(
                     <div className='food-card' key={index}>
@@ -209,10 +212,6 @@ const categories = [
 
 
         <Stats/>
-            
-                
-           
-   
         </>
     );
 

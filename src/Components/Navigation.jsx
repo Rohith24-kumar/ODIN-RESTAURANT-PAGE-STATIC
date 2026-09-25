@@ -25,13 +25,13 @@ export default function navigate(){
                         navigate('/Explore_food')}>Explore Food</button>
                         <button
                         className={`tab-item ${activeTab('/Review') ? 'active':''}`}
-                        onClick={()=>navigate('Review')}>Review</button>
+                        onClick={()=>navigate('/Review')}>Review</button>
                         <button
                         className={`tab-item ${activeTab('About Us') ? 'active':''}`}
-                        onClick={()=>navigate('About Us')}>About Us</button>
+                        onClick={()=>navigate('/About Us')}>About Us</button>
                         <button
                         className={`tab-item ${activeTab('FAQ') ? 'active' : ''}`}
-                        onClick={()=>navigate('FAQ')}>FAQ</button>
+                        onClick={()=>navigate('/FAQ')}>FAQ</button>
                     </div>
                 </nav>
         </>
