@@ -175,7 +175,8 @@ body {
     background-color: #A62B45;
     margin-top: -49.5px;
     justify-content: space-around ;
-    height: 175px;
+    height: auto;
+    padding-bottom: 50px;
 }
 .stat{
     flex: 1;
