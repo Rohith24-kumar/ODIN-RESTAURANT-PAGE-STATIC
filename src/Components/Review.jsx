@@ -221,6 +221,9 @@ export default function Review() {
                         src={topimage}
                         alt="Delicious food"
                         className="hIMG2"
+                        width="1765"
+                        height="831"
+                        fetchPriority="high"
                     />
                 </div>
             </section>
@@ -237,7 +240,7 @@ export default function Review() {
                 </span>
             </div>
 
-            <div className="breakdown-contianer">
+            <div className="breakdown-container">
                 <h2 className="breakdown-title">
                     Overall Rating Breakdown
                 </h2>
@@ -389,6 +392,7 @@ export default function Review() {
                                 <input
                                     type="text"
                                     placeholder="Search reviews..."
+                                    aria-label="Search reviews"
                                     className="search-input"
                                     value={searchText}
                                     onChange={(e) =>
@@ -438,6 +442,8 @@ export default function Review() {
                                         src={review.dishImage}
                                         alt={review.dishName}
                                         className="dish-image"
+                                        loading="lazy"
+                                        decoding="async"
                                     />
 
                                     <div className="dish-details">
