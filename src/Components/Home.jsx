@@ -59,6 +59,9 @@ export default function Navbar() {
                         src={homeimg}
                         alt="Healthy food"
                         className="hIMG"
+                        width="1536"
+                        height="979"
+                        fetchPriority="high"
                     />
                 </div>
             </section>
@@ -82,7 +85,7 @@ export default function Navbar() {
             <div className="craving-items">
                 <div className="image-tag">
                     <img
-                        src={panner}
+                        src={panner} loading="lazy" decoding="async"
                         alt="North Indian"
                         className="panner"
                     />
@@ -91,7 +94,7 @@ export default function Navbar() {
 
                 <div className="image-tag">
                     <img
-                        src={masala}
+                        src={masala} loading="lazy" decoding="async"
                         alt="South Indian"
                         className="masala"
                     />
@@ -100,7 +103,7 @@ export default function Navbar() {
 
                 <div className="image-tag">
                     <img
-                        src={noodels}
+                        src={noodels} loading="lazy" decoding="async"
                         alt="Chinese"
                         className="noodels"
                     />
@@ -109,7 +112,7 @@ export default function Navbar() {
 
                 <div className="image-tag">
                     <img
-                        src={samosa}
+                        src={samosa} loading="lazy" decoding="async"
                         alt="Snacks"
                         className="samosa"
                     />
@@ -124,7 +127,7 @@ export default function Navbar() {
             <section id='spl-items' ref={specialsRef}>
                 <div className="special-items">
                     <div className="image">
-                        <img src={idli} alt="Idli Sambar" />
+                        <img src={idli} alt="Idli Sambar" loading="lazy" decoding="async" />
 
                         <div className="image-info">
                             <span className="name">Idli</span>
@@ -147,7 +150,7 @@ export default function Navbar() {
                     </div>
 
                     <div className="image">
-                        <img src={chinees} alt="Veg Manchurian" />
+                        <img src={chinees} alt="Veg Manchurian" loading="lazy" decoding="async" />
 
                         <div className="image-info">
                             <span className="name">Veg Manchurian</span>
@@ -170,7 +173,7 @@ export default function Navbar() {
                     </div>
 
                     <div className="image">
-                        <img src={chole} alt="Chole Bhature" />
+                        <img src={chole} alt="Chole Bhature" loading="lazy" decoding="async" />
 
                         <div className="image-info">
                             <span className="name">Chole Bhature</span>

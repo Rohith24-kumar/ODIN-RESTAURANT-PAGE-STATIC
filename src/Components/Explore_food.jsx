@@ -184,6 +184,9 @@ const categories = [
                         src={topimage}
                         alt="Healthy food"
                         className="hIMG"
+                        width="1536"
+                        height="965"
+                        fetchPriority="high"
                     />
                 </div>
             </section>
@@ -198,7 +201,7 @@ const categories = [
             <div className='food-container'>
                 {filteredFoods.map((food,index)=>(
                     <div className='food-card' key={index}>
-                        <img src={food.image} alt={food.name}/>
+                        <img src={food.image} alt={food.name} loading="lazy" decoding="async"/>
                         <div className='food-info'>
                             <h3>{food.name}</h3>
                             <p>{food.description}</p>
