@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Caacupe+One&family=Idiqlat:wght@200;300;400&family=Lilita+One&display=swap');
+.hero-section2 {
+    display: flex;
+    align-items: center;
+    min-height: 550px;
+    padding: 0 0 50px 6%;
+    overflow: hidden;
+}
+
+.hero-left2 {
+    width: 45%;
+    padding-left: 30px;
+    position: relative;
+    z-index: 2;
+    margin-top: -100px;
+    margin-left: -80px;
+    text-align: justify;
+}
+
+.hero-left2 h1 {
+    font-family: "Okra", "Recoleta", "Cooper Black", Georgia, serif;
+    font-size: 3.5rem;
+    line-height: 1.1;
+    color:   #A62B45;
+    margin: 0 0 10px;
+    margin-top: 10px;
+    
+}
+
+.hero-left2 p {
+    font-family: Arial, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.4;
+    color: #666;
+    max-width: 600px;
+    margin: 0 0 30px;
+}
+.hero-right2 {
+    width: 55%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: visible;
+     margin-top: 10px;
+}
+.hIMG {
+    width: 100%;
+    max-width: none;
+    height: auto;
+    margin-top: -40px;
+    display: block;
+    padding-left: 500px;
+}
+
