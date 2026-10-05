@@ -7,7 +7,7 @@ const tabs = [
     { label: 'Home', path: '/' },
     { label: 'Explore Food', path: '/Explore_food' },
     { label: 'Review', path: '/Review' },
-    { label: 'About Us', path: '/About Us' },
+    { label: 'About Us', path: '/AboutUs' },
     { label: 'FAQ', path: '/FAQ' },
 ];
 
@@ -22,7 +22,6 @@ export default function Navigation() {
         navigate(path);
     };
 
-    // Let Escape close the mobile menu
     useEffect(() => {
         if (!menuOpen) return;
         const onKey = (e) => e.key === 'Escape' && setMenuOpen(false);
